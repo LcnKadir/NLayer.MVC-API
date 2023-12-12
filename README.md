@@ -12,10 +12,11 @@ MVC and Swagger(GET-PUT-DELETE)
 ![](NLayer.Web/WebSave.png)
 ![](NLayer.Web/Websavetwo.png)
 
-![](NLayer.WebI/ApıPut.png)
+![](NLayer.Web/ApıPut.png)
 ![](NLayer.Web/Webupdateone.png)
 ![](NLayer.Web/Webupdate.png)
 
 ![](NLayer.Web/Deleteweb.png)
 ![](NLayer.Web/DeleteApı.png)
+![](NLayer.Web/Webpagelast.png)
 
