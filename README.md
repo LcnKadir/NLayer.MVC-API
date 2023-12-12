@@ -2,20 +2,20 @@ Visual
 ![](NLayer.Web/Vısual.png)
 
 Index
-![](NLayer.API/WebIndex.png)
-![](NLayer.API/APIındex.png)
+![](NLayer.Web/WebIndex.png)
+![](NLayer.Web/APIındex.png)
 
 MVC and Swagger(GET-PUT-DELETE)
-![](NLayer.API/Productspage.png)
-![](NLayer.API/ApıProducts.png)
+![](NLayer.Web/Productspage.png)
+![](NLayer.Web/ApıProducts.png)
 
-![](NLayer.API/WebSave.png)
-![](NLayer.API/Websavetwo.png)
+![](NLayer.Web/WebSave.png)
+![](NLayer.Web/Websavetwo.png)
 
-![](NLayer.API/ApıPut.png)
-![](NLayer.API/Webupdateone.png)
-![](NLayer.API/Webupdate.png)
+![](NLayer.WebI/ApıPut.png)
+![](NLayer.Web/Webupdateone.png)
+![](NLayer.Web/Webupdate.png)
 
-![](NLayer.API/Deleteweb.png)
-![](NLayer.API/DeleteApı.png)
+![](NLayer.Web/Deleteweb.png)
+![](NLayer.Web/DeleteApı.png)
 
