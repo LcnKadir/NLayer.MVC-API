@@ -1,0 +1,47 @@
+﻿@model ProductDto
+@{
+    ViewData["Title"] = "Update";
+}
+
+<h1>Update Product</h1>
+
+<div class="row">
+
+    <div class="col-md-6">
+        <form asp-action="Update" method="post" asp-controller="Products">
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                 <label asp-for="Name"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Stock"></label>
+                <input asp-for="Stock" class="form-control" />
+                <span asp-validation-for="Stock" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Price"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CategoryId"></label>
+                <select asp-for="CategoryId" asp-items="ViewBag.categories" class="form-control">
+                    <option>Please Select a Category...</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+
+                <input type="submit" value="Update" class="btn btn-primary" />
+
+            </div>
+        </form>
+       
+    </div>
+    <img src="https://static.vecteezy.com/system/resources/previews/032/402/683/non_2x/inventory-control-system-concept-professional-manager-checking-inventory-and-stock-of-goods-inventory-management-with-goods-request-control-of-incoming-and-outgoing-goods-flat-illustration-vector.jpg" alt="" class="img-fluid" />
+</div>
